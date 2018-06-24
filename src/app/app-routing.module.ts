@@ -33,7 +33,7 @@ const routes: Routes = [
   {
     path: 'customer',
     loadChildren: async () => {
-      const script = await loadScript('/customer/bundles/customer.umd.min.js', 'customer');
+      const script = await loadScript('/customer/bundles/customer.umd.js', 'customer');
       const module = window['customer']['CustomerModule'];
       return module;
     }

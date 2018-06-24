@@ -1,5 +1,5 @@
 {
-  "/customer": {
+  "/customer/bundles/": {
     "target": "http://localhost:5050",
     "secure": false,
     "logLevel": "debug"
